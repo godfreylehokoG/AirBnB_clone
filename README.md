@@ -1,2 +1,2 @@
 # AirBnB_clone
-My AirBnB clone
+This is my AirBnB clone

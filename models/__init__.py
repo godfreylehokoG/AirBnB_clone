@@ -1,3 +1,4 @@
-#!/usr/bin/python3
+from .engine.file_storage import FileStorage
 
-from os import getenv
+storage = FileStorage()
+storage.reload()

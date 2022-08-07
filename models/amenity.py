@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 
-"""Module state
-Contains class State that inherits from BaseModel"""
+"""Module amenity
+Contains class Amenity that inherits from BaseModel"""
 from models import base_model
 
 
-class State(base_model.BaseModel):
-    """Defines a state where AirBnB places can be found"""
+class Amenity(base_model.BaseModel):
+    """Defines the amenity of a Place in AirBnB"""
     name = ""
 
     def __init__(self, *args, **kwargs):

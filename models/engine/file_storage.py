@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""Module file_storage
-Contains class FileStorage"""
+"""Contains class FileStorage"""
 import json
 from importlib import import_module
 

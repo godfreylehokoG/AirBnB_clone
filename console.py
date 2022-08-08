@@ -1,14 +1,14 @@
 #!/usr/bin/python3
 
-"""Module console.py
-The program starts here. Run this script to interact with the program"""
+"""Program entry point. This script runs and the program"""
 
 import cmd
+import json
 import models
 
-# noinspection PyMethodMayBeStatic
+
 class HBNBCommand(cmd.Cmd):
-    """The console program for this AirBnB clone starts here"""
+    """Class for the command Interpreter"""
     prompt = "(hbnb) "
     storage = models.storage
 

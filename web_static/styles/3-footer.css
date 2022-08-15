@@ -4,9 +4,12 @@ footer {
     margin-bottom: auto;
     height: 60px;
     width: 100%;
+    position: fixed;
+    bottom: 0;
     justify-content: center;
     align-items: center;
 
     border-top: 1px #CCCCCC;
     border-top-style: solid;
 }
+

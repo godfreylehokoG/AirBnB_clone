@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
-"""Module amenity
-Contains class Amenity that inherits from BaseModel"""
+"""Amenity Class which inherits from BaseModel"""
 from models import base_model
 
 
